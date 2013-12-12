@@ -1,0 +1,1294 @@
+/*
+ * HTML5 Boilerplate
+ *
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+    background-color: #fff;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection declarations have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
+ */
+
+img {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Chrome Frame prompt
+   ========================================================================== */
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+
+Laptop and Desktop (960px and up)
+
+----------------------------------------------------------------------------*/   
+   
+h2 {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	padding-left: 1em;
+}
+
+p {
+    padding-left: 1em;
+}
+#header-left {
+	width: 20%;
+	height: 5.5em;
+	float: left;
+	background-color: rgb(209,211,211);
+	clear: left;
+}
+#header-right {
+	width: 80%;
+	height: 5.5em;
+	float: right;
+	background-color: rgb(255,255,255);
+	color: #000;
+	clear: right;
+}
+
+#menu{
+	background-color: #000;
+	color: #fff;
+	font-size: 1.6em;
+	text-align: center;
+	font-weight: none;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+ul.topNav {
+	padding: 0px;
+	margin: 0px;
+}
+
+ul li {
+	display: inline;
+	list-style-type: none;
+}
+
+#fish {
+	background-color: #fff;
+	background-image:url(../img/Tuna.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: auto;
+	height: 17em;
+}
+
+.stackedNav {
+	visibility: hidden;
+	display: none;
+}
+
+#strip {
+	background-color: #000;
+	height: 0.5em;
+}
+#mid-SectionBG {
+	background-color: rgb(226,215,199);
+}
+
+#contentWrapper {
+	margin: auto;
+	max-width: 65em;
+}
+
+#content {
+	padding: 1em;
+}
+
+#contentLeft {
+	width: 50%;
+	display: inline-block;
+	padding-bottom: 1em;
+}
+
+#contentRight {
+	width: 48%;
+	display: inline-block;
+	background-image: url(../img/hibachi2.jpg);
+	background-position: bottom;
+	background-repeat: no-repeat;
+	height: 500px;
+	float: right;
+}
+
+#btmNavBG {
+	background-color: #fff;
+	height: auto;
+}
+
+#btmNOne {
+	width: 24%;
+	background-image: url('../img/chocolate-bowl-ice-cream-2.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 10em;
+	display: inline-block;
+}
+
+#btmNTwo {
+	width: 24%;
+	background-image: url('../img/210-sashimi.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 10em;
+	display: inline-block;
+}
+
+#btmNThree {
+	width: 24%;
+	background-image: url('../img/nav-yt.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 10em;
+	display: inline-block;
+}
+
+#btmNFour {
+	width: 25%;
+	background-image: url('../img/smBottles.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 10em;
+	display: inline-block;
+}
+
+#btmWrap {
+	margin: auto;
+	max-width: 65em;
+}
+#btmContent {
+	padding: 1em;
+}
+footer {
+	background-color: #000;
+}
+#footWrap {
+	margin: auto;
+	max-width: 65em;
+}
+#footContent {	
+	padding: .05em;
+	color: #fff;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 1.2em;
+}
+.control {
+	clear: both;
+}
+
+.sashimi {
+	visibility: hidden;
+	display: none;
+}
+
+.sashimi2 {
+        visibility: hidden;
+	display: none;
+}
+
+}
+
+
+/* --------------------------------------------------------------------------
+
+Breakpoint 5: Logo needs adjustment.
+Max Width: 959px
+Min Width: 871px
+
+----------------------------------------------------------------------------*/
+
+@media screen and (min-width: 871px) and (max-width: 959px){
+h2 {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	padding-left: 1em;
+}
+
+p {
+    padding-left: 1em;
+}
+
+#header-left {
+	width: 30%;
+	height: 5.5em;
+	float: left;
+	background-color: rgb(209,211,211);
+	clear: left;
+}
+#header-right {
+	width: 70%;
+	height: 5.5em;
+	float: right;
+	background-color: rgb(255,255,255);
+	color: #000;
+	clear: right;
+}
+
+
+#menu{
+	background-color: #000;
+	color: #fff;
+	font-size: 1.6em;
+	text-align: center;
+	font-weight: none;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+ul.topNav {
+	padding: 0px;
+	margin: 0px;
+}
+
+ul li {
+	display: inline;
+	list-style-type: none;
+}
+
+.stackedNav {
+	visibility: hidden;
+	display: none;
+}
+
+#strip {
+	background-color: #000;
+	height: 0.5em;
+}
+#mid-SectionBG {
+	background-color: rgb(226,215,199);
+}
+
+#contentWrapper {
+	margin: auto;
+	max-width: 65em;
+}
+
+#content {
+	padding: 1em;
+}
+
+#contentLeft {
+	width: 50%;
+	display: inline-block;
+	float: left;
+}
+
+#contentRight {
+	width: 48%;
+	display: inline-block;
+	background-image: url('../img/2img.png');
+	background-repeat: no-repeat;
+	height: 500px;
+	float: right;
+}
+
+#btmNavBG {
+	background-color: #fff;
+	height: auto;
+}
+
+#btmNOne {
+	width: 32%;
+	background-image: url('../img/chocolate-bowl-ice-cream-2.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 10em;
+	display: inline-block;
+}
+
+#btmNTwo {
+	display: none;
+}
+
+#btmNThree {
+	width: 32%;
+	background-image: url('../img/nav-yt.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 10em;
+	display: inline-block;
+}
+
+#btmNFour {
+	width: 32%;
+	background-image: url('../img/smBottles.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 10em;
+	display: inline-block;
+}
+
+#btmWrap {
+	margin: auto;
+	max-width: 65em;
+}
+#btmContent {
+	padding: 1em;
+}
+
+footer {
+	background-color: #000;
+}
+#footWrap {
+	margin: auto;
+	max-width: 65em;
+}
+#footContent {	
+	padding: .05em;
+	color: #fff;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 1.2em;
+}
+.control {
+	clear: both;
+}
+
+.sashimi {
+	visibility: hidden;
+	display: none;
+}
+
+.sashimi2 {
+    visibility: hidden;
+	display: none;
+}
+}
+
+
+/* --------------------------------------------------------------------------
+
+Breakpoint 4: Need bigger images between this point and the next.
+Main fish too big along. Logo needs adjustment.
+Max Width: 870px
+Min Width: 641px
+
+----------------------------------------------------------------------------*/
+
+@media screen and (min-width: 731px) and (max-width: 870px){
+
+h2 {
+    padding-left: 1em;
+    padding-top: 0px;
+	font-weight: lighter;
+}
+
+p {
+    padding-left: 1em;
+}    
+#contentLeft {
+	width: 50%;
+	display: inline-block;
+}
+#contentRight {
+	width: 48%;
+	display: inline-block;
+	background-image: url('../img/2img.png');
+	background-repeat: no-repeat;
+	height: 500px;
+	float: right;
+}
+
+#header-left {
+	width: 30%;
+	height: 5.5em;
+	float: left;
+	background-color: rgb(209,211,211);
+	clear: left;
+}
+#header-right {
+	width: 70%;
+	height: 5.5em;
+	float: right;
+	background-color: rgb(255,255,255);
+	color: #000;
+	clear: right;
+}
+#btmNOne {
+	width: 32%;
+	background-image: url('../img/chocolate-bowl-ice-cream-2.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 10em;
+	display: inline-block;
+}
+
+#btmNTwo {
+	display: none;
+}
+
+#btmNThree {
+	width: 32%;
+	background-image: url('../img/nav-yt.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 10em;
+	display: inline-block;
+}
+
+#btmNFour {
+	width: 32%;
+	background-image: url('../img/smBottles.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 10em;
+	display: inline-block;
+}
+
+.sashimi {
+	visibility: hidden;
+	display: none;
+}
+
+.sashimi2 {
+    visibility: hidden;
+	display: none;
+}
+}
+
+/* --------------------------------------------------------------------------
+
+Landscape Tablet
+Max Width: 640px
+Min Width: 551px
+
+----------------------------------------------------------------------------*/
+
+@media screen and (min-width: 570px) and (max-width: 730px){
+    
+#contentLeft {
+	width: auto;
+	display: inline-block;
+}
+
+#contentRight {
+	display: none;
+}
+
+#header-left {
+	width: 30%;
+	height: 5.5em;
+	float: left;
+	background-color: rgb(209,211,211);
+	clear: left;
+}
+#header-right {
+	width: 70%;
+	height: 5.5em;
+	float: right;
+	background-color: rgb(255,255,255);
+	color: #000;
+	clear: right;
+}
+
+#btmNOne {
+	width: 32%;
+	background-image: url('../img/140-choco.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 6em;
+	display: inline-block;
+}
+
+#btmNTwo {
+	display: none;
+	visibility: none;
+}
+
+#btmNThree {
+	width: 32%;
+	background-image: url('../img/140-yt.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 6em;
+	display: inline-block;
+}
+
+#btmNFour {
+	width: 32%;
+	background-image: url('../img/140-bottles.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 6em;
+	display: inline-block;
+}
+
+.sashimi {
+    visibility: visible;
+	display: inline-block;
+	float: right;
+    padding: 1em;
+}
+
+.sashimi2 {
+        visibility: hidden;
+	display: none;
+}
+}
+
+/* --------------------------------------------------------------------------
+
+Breakpoint 3: Fish is too big. Navigation breaks. Header is off. Transition to alternating colors for paragraphs.
+Max Width: 480px
+Min Width: 550px
+
+----------------------------------------------------------------------------*/
+
+@media screen and (min-width: 481px) and (max-width: 569px){
+body {
+	background-color: rgb(226,215,199);
+}
+
+h2 {
+	font-size: 150%;
+	padding-bottom: 0px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	padding-left: 1em;
+}
+
+p {
+    padding: 1em;
+}
+
+#header-left {
+	width: 50%;
+	height: 5.5em;
+	float: left;
+	background-color: rgb(209,211,211);
+	clear: left;
+}
+#header-right {
+	width: 50%;
+	height: 5.5em;
+	float: right;
+	background-color: rgb(255,255,255);
+	color: #000;
+	clear: right;
+}
+
+
+#fish {
+	background-color: #fff;
+	background-image:url(../img/500-Tuna.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: auto;
+	height: 14em;
+}
+
+#mid-SectionBG {
+	background-color: rgb(226,215,199);
+}
+
+#contentWrapper {
+	margin: auto;
+	width: 100%;
+	background-color: rgb(226,215,199);
+}
+
+#content {
+	padding: 0px;
+}
+
+#contentLeft {
+	width: 100%;
+	display: inline-block;
+}
+
+#contentRight {
+    display: none;
+}
+
+#contentRight2 {
+
+}
+
+#btmNOne {
+	width: 32%;
+	background-image: url('../img/140-choco.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 6em;
+	display: inline-block;
+}
+
+#btmNTwo {
+	display: none;
+	visibility: none;
+}
+
+#btmNThree {
+	width: 32%;
+	background-image: url('../img/140-yt.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 6em;
+	display: inline-block;
+}
+
+#btmNFour {
+	width: 32%;
+	background-image: url('../img/140-bottles.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 6em;
+	display: inline-block;
+}
+
+.beige{
+	background-color: rgb(226,215,199);
+}
+
+.white {
+	background-color: #fff;
+}
+.sashimi2 {
+        visibility: visible;
+	display: inline-block;
+	float: right;
+	padding-left: 1em;
+}
+.sashimi {
+	visibility: hidden;
+	display: none;
+
+}
+}
+
+/* --------------------------------------------------------------------------
+
+Landscape Mobile / Tablet Portrait
+Fully transitioned navigation, alternating colors for text. Integrate 1/2 price sushi image. 
+Max Width: 432px
+Min Width: 18em
+
+----------------------------------------------------------------------------*/
+@media screen and (min-width:401px) and (max-width: 480px){
+body {
+	background-color: rgb(226,215,199);
+}
+
+h2 {
+	font-size: 150%;
+	padding-bottom: 0px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	text-align: center;
+}
+
+#contentRight {
+    display: none;
+}
+
+#smHeader {
+	background-image:url(../img/fujiyama-mama.png);
+	background-repeat: no-repeat;
+	background-color: #fff;
+	height: 3em;
+}
+
+#bigHeader {
+	visibility: none;
+	display: none;
+}
+
+#fish {
+	background-color: #fff;
+	background-image:url(../img/220-Tuna.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: auto;
+	height: 12em;
+}	
+
+#menuRPStrip {
+	background-color: #000;
+	height: 0.5em;
+}
+
+.stackedNav {
+	visibility: visible;
+	display: block;
+	text-align: center;
+}
+
+#mid-SectionBG {
+	background-color: rgb(226,215,199);
+}
+
+#contentWrapper {
+	margin: auto;
+	width: 100%;
+	background-color: rgb(226,215,199);
+}
+
+#content {
+	padding: 0px;
+}
+
+#contentLeft {
+	width: 100%;
+	display: inline-block;
+	padding: 0px;
+}
+
+#contentRight {
+    visibility: none;
+}
+
+#featured {
+    height: 162px;
+    background-image: url(../img/half-price.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(0,0,0);
+}
+.blackNav {
+	background-color: #000;
+	color: #fff;
+	font-size: 2em;
+	text-align: center;
+	font-weight: none;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.whiteNav {
+	background-color: #fff;
+	color: #000;
+	font-size: 2em;
+	text-align: center;
+	font-weight: none;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.beigeNav {
+	background-color: rgb(226,215,199);
+	color: #000;
+	font-size: 2em;
+	text-align: center;
+	font-weight: none;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+
+.beige{
+	background-color: rgb(226,215,199);
+}
+
+.white {
+	background-color: #fff;
+}
+
+.stopTopPad {
+	padding-top: 0px;
+}
+
+p {
+	padding: 1em;
+}
+
+ul.topNav {
+	visibility: hidden;
+	display: none;
+}
+
+#btmNavBG {
+	background-color: #fff;
+}
+
+#btmWrap {
+	margin: auto;
+	max-width: 65em;
+}
+
+#btmContent {
+	padding: 1em;
+}
+#btmNOne {
+	display: none;
+}
+
+#btmNTwo {
+	display: none;
+}
+
+#btmNThree {
+	display: none;
+}
+
+#btmNFour {
+	display: none;
+}
+
+footer {
+	background-color: #000;
+}
+
+#footWrap {
+	margin: auto;
+	max-width: 65em;
+}
+
+#footContent {	
+	padding: .05em;
+	color: #fff;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 1.2em;
+}
+
+.sashimi {
+	visibility: hidden;
+	display: none;
+}
+
+.sashimi2 {
+        visibility: hidden;
+	display: none;
+}
+
+}
+
+/* --------------------------------------------------------------------------
+
+Mobile Device Styles
+max width: 18em
+covers 18em and below.
+----------------------------------------------------------------------------*/
+@media screen and (max-width: 400px){
+
+body {
+	background-color: rgb(226,215,199);
+}
+
+h2 {
+	font-size: 150%;
+	padding-bottom: 0px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	text-align: center;
+}
+
+#smHeader {
+	background-image:url(../img/fujiyama-mama.png);
+	background-repeat: no-repeat;
+	background-color: #fff;
+	height: 3em;
+}
+
+#bigHeader {
+	visibility: none;
+	display: none;
+}
+
+#header-left {
+	width: 50%;
+	height: 3em;
+	float: left;
+	background-color: rgb(209,211,211);
+	clear: left;
+}
+#fish {
+	background-color: #fff;
+	background-image:url(../img/sm-yellowtail.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: auto;
+	height: 10em;
+}	
+
+#menuRPStrip {
+	background-color: #000;
+	height: 0.5em;
+}
+
+.stackedNav {
+	visibility: visible;
+	display: block;
+	text-align: center;
+}
+
+#mid-SectionBG {
+	background-color: rgb(226,215,199);
+}
+
+#contentWrapper {
+	margin: auto;
+	width: 100%;
+	background-color: rgb(226,215,199);
+}
+
+#content {
+	padding: 0px;
+}
+
+#contentLeft {
+	width: 100%;
+	display: inline-block;
+}
+
+#contentRight {
+    visibility: none;
+    display: none;
+}
+
+.blackNav {
+	background-color: #000;
+	color: #fff;
+	font-size: 2em;
+	text-align: center;
+	font-weight: none;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.whiteNav {
+	background-color: #fff;
+	color: #000;
+	font-size: 2em;
+	text-align: center;
+	font-weight: none;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.beigeNav {
+	background-color: rgb(0,0,0);
+	color: #fff;
+	font-size: 2em;
+	text-align: center;
+	font-weight: none;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.beige{
+	background-color: rgb(226,215,199);
+}
+
+.white {
+	background-color: #fff;
+}
+
+p {
+	padding: 1em;
+}
+
+ul.topNav {
+	visibility: hidden;
+	display: none;
+}
+
+#btmNavBG {
+	background-color: #fff;
+}
+#btmWrap {
+	margin: auto;
+	max-width: 65em;
+}
+
+#btmContent {
+	padding: 1em;
+}
+
+footer {
+	background-color: #000;
+}
+
+#footWrap {
+	margin: auto;
+	max-width: 65em;
+}
+
+#footContent {	
+	padding: .05em;
+	color: #fff;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 1.2em;
+}
+
+#btmNOne {
+	display: none;
+}
+
+#btmNTwo {
+	display: none;
+}
+
+#btmNThree {
+	display: none;
+}
+
+#btmNFour {
+	display: none;
+}
+
+.sashimi {
+	visibility: hidden;
+	display: none;
+}
+
+.sashimi2 {
+        visibility: hidden;
+	display: none;
+}
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Image replacement
+ */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   Theses examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
